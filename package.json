@@ -8,11 +8,13 @@
     "docs:build": "compodoc -p tsconfig.json -n ng4-social-login -d docs --hideGenerator",
     "docs:serve": "npm run docs:build -- -s",
     "docs:watch": "npm run docs:build -- -s -w",
-    "lint": "tslint --type-check  src/**/*.ts"
+    "lint": "tslint --type-check  src/**/*.ts",
+    "prepare": "npm run build",
+
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sarfarazansari/ng4-social-login"
+    "url": "https://github.com/trex109/ng4-social-login"
   },
   "author": {
     "name": "Sarfaraz Ansari",
@@ -31,7 +33,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sarfarazansari/ng4-social-login/issues"
+    "url": "https://github.com/trex109/ng4-social-login/issues"
   },
   "devDependencies": {
     "@angular/common": "^4.0.0",
